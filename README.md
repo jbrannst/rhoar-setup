@@ -12,10 +12,10 @@ ln -s ~/.minishift/cache/oc/v3.5.5.31/oc /usr/local/bin/oc
 minishift setup-cdk
 ```
 
-3. Allow cdk to run with enterprise creds
+3. Allow cdk to run with enterprise creds -- the account you used to get the CDK bits. Skip if minishift
 ```sh
-export MINISHIFT_PASSWORD=<your rh subs pwd>
-export MINISHIFT_USERNAME=<your rh subs user>
+export MINISHIFT_PASSWORD=<your redhat password>
+export MINISHIFT_USERNAME=<your redhat username>
 ```
 
 4. Start minishift
