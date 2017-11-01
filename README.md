@@ -29,7 +29,7 @@ https://help.github.com/articles/creating-a-personal-access-token-for-the-comman
 
 6. Run rhoar install, example
 ```sh
-curl -O https://raw.githubusercontent.com/jbrannst/rhoar-setup/master/deploy_launchpad_mission.sh
+curl -O https://raw.githubusercontent.com/openshiftio/appdev-documentation/master/scripts/deploy_launchpad_mission.sh
 chmod +x deploy_launchpad_mission.sh
 ./deploy_launchpad_mission.sh -p rhoar -i developer:developer -g <your github username>:<your github token>
 ```
