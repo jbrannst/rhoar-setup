@@ -1,4 +1,9 @@
 # rhoar-setup
+Obsolete!
+See for instructions
+https://access.redhat.com/documentation/en-us/red_hat_openshift_application_runtimes/1/html/getting_started_with_red_hat_openshift_application_runtimes/osl-create-booster
+
+
 Skip to 5 if you have OCP running
 
 1. Download minishift or CDK  
